@@ -4,7 +4,7 @@
 ​
 # I am proficient (hands-on) in the following:
 ​
-![hi](https://ibb.co/K6FsjZs)
+![hi](https://i.ibb.co/LSngzwg/Screenshot-2020-08-24-at-1-14-25-PM.png" alt="Screenshot-2020-08-24-at-1-14-25-PM)
 ​
 ## (1) Schema design / ERD
 ​
