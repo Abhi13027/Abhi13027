@@ -1,4 +1,4 @@
-![The Silicon Valley](https://media-exp1.licdn.com/dms/image/C5616AQFRKP6AlWbIGw/profile-displaybackgroundimage-shrink_350_1400/0?e=1609977600&v=beta&t=lEeIGth6Nvl7za2NOh2_t0qy-85yG6rsJK3N6WBZcEY)
+![The Silicon Valley](https://wallpapercave.com/wp/wp2022116.jpg)
 
 # Hi Everyone
 
