@@ -7,20 +7,20 @@ package main
 
 func main(){
     handler := func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Hello, World!")
-	}
+	fmt.Fprintln(w, "Hello, World!")
+    }
 
     http.HandleFunc("/", handler)
 
     port := 8080
 
-	fmt.Printf("Server is running on port %d...\n", port)
+    fmt.Printf("Server is running on port %d...\n", port)
 
-	err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
+    err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
 
-	if err != nil {
-		fmt.Printf("Error: %v\n", err)
-	}
+    if err != nil {
+        fmt.Printf("Error: %v\n", err)
+    }
 }
 ```
 
