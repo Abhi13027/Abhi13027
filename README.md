@@ -2,12 +2,25 @@
 
 # Hi Everyone
 
-```jsx
-const express = require('express');
-const app = express();
+```go
+package main
 
-app.listen(80, () => {
-    console.log('Welcome to my GITHUB PAGE');
+func main(){
+    handler := func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "Hello, World!")
+	}
+
+    http.HandleFunc("/", handler)
+
+    port := 8080
+
+	fmt.Printf("Server is running on port %d...\n", port)
+
+	err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
+
+	if err != nil {
+		fmt.Printf("Error: %v\n", err)
+	}
 }
 ```
 
@@ -15,9 +28,9 @@ app.listen(80, () => {
 
 My name is Abhishek Jain. I hail from a city called Kota in Rajasthan. I did my bachelors in Economic Sciences with double majors in Computer Science and Engineering from IIT KANPUR. Post that I worked with Oracle India Pvt. Ltd as a Member of Technical Staff for 17 months. After that journey I joined a startup named Masai School which a coding bootcamp where I taught around 500+ students. 
 
-The technologies and languages that attract me -
+The technologies that attract me -
 
-- MERN
 - Flutter
 - Golang
-- Python
+- Data Intensive Applications
+
